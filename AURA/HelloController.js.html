@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>HelloController.js</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #89ddff;}
+.s1 { color: #eeffff;}
+.s2 { color: #c792ea; font-style: italic;}
+.s3 { color: #c3e88d;}
+.s4 { color: #f78c6c;}
+.ls0 { height: 1px; border-width: 0; color: #424242; background-color:#424242}
+.ln { color: #424242; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#212121">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+HelloController.js</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">({</span><hr class="ls0"><a name="l2"><span class="ln">2    </span></a>    <span class="s1">calculate</span><span class="s0">: </span><span class="s2">function</span><span class="s0">(</span><span class="s1">component</span><span class="s0">, </span><span class="s1">event</span><span class="s0">, </span><span class="s1">helper</span><span class="s0">) {</span><hr class="ls0"><a name="l3"><span class="ln">3    </span></a>        <span class="s1">component</span><span class="s0">.</span><span class="s1">set</span><span class="s0">(</span><span class="s3">'v.age'</span><span class="s0">, </span><span class="s2">new </span><span class="s1">Date</span><span class="s0">().</span><span class="s1">getFullYear</span><span class="s0">() - </span><span class="s1">component</span><span class="s0">.</span><span class="s1">get</span><span class="s0">(</span><span class="s3">'v.birthdate'</span><span class="s0">).</span><span class="s1">split</span><span class="s0">(</span><span class="s3">'-'</span><span class="s0">)[</span><span class="s4">0</span><span class="s0">]);</span>
+<a name="l4"><span class="ln">4    </span></a>    }
+<a name="l5"><span class="ln">5    </span></a>})</pre>
+</body>
+</html>
